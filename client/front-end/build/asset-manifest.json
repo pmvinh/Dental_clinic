@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1867b876.css",
+    "main.js": "/static/js/main.aecb2778.js",
+    "static/media/404-dental.png": "/static/media/404-dental.ea9139eff6393cfcd740.png",
+    "static/media/main.jpg": "/static/media/main.1dd76609cf5e270e97d5.jpg",
+    "static/media/403.png": "/static/media/403.fd54db5824af641db216.png",
+    "static/media/search-fail.png": "/static/media/search-fail.98bc826327ced82ba54b.png",
+    "static/media/tooth.svg": "/static/media/tooth.f0aa56e97fbcd96fe3e8c45949584cc4.svg",
+    "index.html": "/index.html",
+    "main.1867b876.css.map": "/static/css/main.1867b876.css.map",
+    "main.aecb2778.js.map": "/static/js/main.aecb2778.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1867b876.css",
+    "static/js/main.aecb2778.js"
+  ]
+}
