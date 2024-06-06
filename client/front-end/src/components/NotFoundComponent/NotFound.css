@@ -1,0 +1,14 @@
+.notFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh auto auto;
+    width: auto;
+    max-height: 100%;
+}
+
+.NotFound_pict{
+    width:auto;
+    height: 35vw;
+    margin: auto;
+}
