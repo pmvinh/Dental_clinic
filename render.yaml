@@ -1,0 +1,12 @@
+# Exported from Render on 2024-06-07T00:19:31Z
+services:
+- type: web
+  name: Dental_clinic
+  runtime: docker
+  repo: https://github.com/pmvinh/Dental_clinic
+  plan: free
+  region: frankfurt
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+  rootDir: client/front-end
+version: "1"
