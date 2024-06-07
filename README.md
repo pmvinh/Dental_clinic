@@ -74,8 +74,6 @@
 Серверная часть запуститься по адресу http://localhost:8086/
 Само приложение запустится по адресу  http://localhost/
 
-Коллекция запросов для тестирования доступна по ссылке https://gold-firefly-583647.postman.co/workspace/Team-Workspace~63e788f6-1c0b-437d-8635-9e5a5aa63865/collection/20983878-56711c53-7817-443a-b940-cb80c5e5b15b?action=share&creator=20983878
-
 [Руководство пользователя][doc]
 
 [doc]: Руководство%20пользователя.pdf
