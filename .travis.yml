@@ -1,10 +1,20 @@
 language: java
+
 jdk:
   - openjdk17
 
+cache:
+  directories:
+    - $HOME/.m2
+
+addons:
+  sonarcloud:
+    organization: "YOUR_ORG_KEY"
+    token:
+      secure: "$SONAR_TOKEN"
+
 script:
   - mvn clean verify sonar:sonar \
-    -Dsonar.projectKey=YOUR_PROJECT_KEY \
-    -Dsonar.organization=YOUR_ORG_KEY \
-    -Dsonar.host.url=https://sonarcloud.io \
-    -Dsonar.login=$SONAR_TOKEN
+      -Dsonar.projectKey=pmvinh_Dental_clinic \
+      -Dsonar.organization=YOUR_ORG_KEY \
+      -Dsonar.host.url=https://sonarcloud.io
