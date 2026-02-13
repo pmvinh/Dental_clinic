@@ -16,5 +16,5 @@ addons:
 script:
   - mvn clean verify sonar:sonar \
       -Dsonar.projectKey=pmvinh_Dental_clinic \
-      -Dsonar.organization=YOUR_ORG_KEY \
+      -Dsonar.organization=pmvinh \
       -Dsonar.host.url=https://sonarcloud.io
