@@ -1,0 +1,10 @@
+language: java
+jdk:
+  - openjdk17
+
+script:
+  - mvn clean verify sonar:sonar \
+    -Dsonar.projectKey=YOUR_PROJECT_KEY \
+    -Dsonar.organization=YOUR_ORG_KEY \
+    -Dsonar.host.url=https://sonarcloud.io \
+    -Dsonar.login=$SONAR_TOKEN
